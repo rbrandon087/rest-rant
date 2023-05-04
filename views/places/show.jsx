@@ -14,7 +14,7 @@ function show(data) {
           <h2 className="rant">{c.rant ? 'Rant! ðŸ˜¡' : 'Rave! ðŸ˜»'}</h2>
           <h4>{c.content}</h4>
           <h3>
-            <stong>- {c.author}</stong>
+            <strong>- {c.author}</strong>
           </h3>
           <h4>Rating: {c.stars}</h4>
         </div>
